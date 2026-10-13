@@ -1,0 +1,62 @@
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments and locally unpacked dependencies
+.venv/
+venv/
+env/
+ENV/
+.tmp_pyarrow/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs, databases and runtime state
+*.log
+*.pid
+*.sqlite
+*.sqlite3
+*.db
+.chainabuse_browser_profile/
+playwright/.local-browsers/
+test-results/
+
+# Generated parser data and checkpoints
+*.parquet
+**/local_parquet/
+**/*_checkpoints/
+opensanctions_cache/
+tmp/
+crypto_sanctions_comparison.json
